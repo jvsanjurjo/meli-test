@@ -22,3 +22,5 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Servidor iniciado en el puerto ${PORT}`);
 });
+
+// https://auth.mercadolibre.com.co/authorization?response_type=code&client_id=3602696751616603&redirect_uri=https://localhost:3000
